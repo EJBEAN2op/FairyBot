@@ -62,3 +62,5 @@ if (args[1] === '2') return message.author.send(new Discord.MessageEmbed()
 break; 
     } 
 })
+
+bot.login(process.env.TOKEN)
